@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIEI-451: HW3</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <style>
+    h1 {
+      font-family: Comfortaa, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="p-8">
+  <div class="container text-center mx-auto">
+    <h1 class="inline-block px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      <i class="fas fa-car-side"></i>
+      <span class="level-of-service">Noober X</span>
+    </h1>
+
+    <div class="border-4 border-gray-900 p-4 my-4 text-left passenger-1">
+      <div class="flex">
+        <div class="w-1/2">
+          <h2 class="text-2xl py-1 passenger-1-name">Foghorn Leghorn</h2>
+          <p class="font-bold text-gray-600 passenger-1-phone">(312) 555-1212</p>
+        </div>
+        <div class="w-1/2 text-right">
+          <span class="rounded-xl bg-gray-600 text-white p-2">
+            <span class="passenger-1-number-of-passengers">2 passengers</span> 
+          </span>
+        </div>
+      </div>
+      <div class="mt-4 flex">
+        <div class="w-1/2">
+          <div class="text-sm font-bold text-gray-600">PICKUP</div>
+          <p class="passenger-1-pickup-address-line-1">123 Main St</p>
+          <p class="passenger-1-pickup-address-line-2">Chicago, IL 60603</p>
+        </div>
+        <div class="w-1/2">
+          <div class="text-sm font-bold text-gray-600">DROPOFF</div>
+          <p class="passenger-1-dropoff-address-line-1">123 Main St</p>
+          <p class="passenger-1-dropoff-address-line-2">Chicago, IL 60603</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-4 border-gray-900 p-4 my-4 text-left passenger-2">
+      <div class="flex">
+        <div class="w-1/2">
+          <h2 class="text-2xl py-1 passenger-2-name">Foghorn Leghorn</h2>
+          <p class="font-bold text-gray-600 passenger-2-phone">(312) 555-1212</p>
+        </div>
+        <div class="w-1/2 text-right">
+          <span class="rounded-xl bg-gray-600 text-white p-2">
+            <span class="passenger-2-number-of-passengers">2 passengers</span>
+          </span>
+        </div>
+      </div>
+      <div class="mt-4 flex">
+        <div class="w-1/2">
+          <div class="text-sm font-bold text-gray-600">PICKUP</div>
+          <p class="passenger-2-pickup-address-line-1">123 Main St</p>
+          <p class="passenger-2-pickup-address-line-2">Chicago, IL 60603</p>
+        </div>
+        <div class="w-1/2">
+          <div class="text-sm font-bold text-gray-600">DROPOFF</div>
+          <p class="passenger-2-dropoff-address-line-1">123 Main St</p>
+          <p class="passenger-2-dropoff-address-line-2">Chicago, IL 60603</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-4 border-gray-900 p-4 my-4 text-left passenger-3">
+      <div class="flex">
+        <div class="w-1/2">
+          <h2 class="text-2xl py-1 passenger-3-name">Foghorn Leghorn</h2>
+          <p class="font-bold text-gray-600 passenger-3-phone">(312) 555-1212</p>
+        </div>
+        <div class="w-1/2 text-right">
+          <span class="rounded-xl bg-gray-600 text-white p-2">
+            <span class="passenger-3-number-of-passengers">2 passengers</span>
+          </span>
+        </div>
+      </div>
+      <div class="mt-4 flex">
+        <div class="w-1/2">
+          <div class="text-sm font-bold text-gray-600">PICKUP</div>
+          <p class="passenger-3-pickup-address-line-1">123 Main St</p>
+          <p class="passenger-3-pickup-address-line-2">Chicago, IL 60603</p>
+        </div>
+        <div class="w-1/2">
+          <div class="text-sm font-bold text-gray-600">DROPOFF</div>
+          <p class="passenger-3-dropoff-address-line-1">123 Main St</p>
+          <p class="passenger-3-dropoff-address-line-2">Chicago, IL 60603</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="my-8">
+      <a class="px-4 py-2 bg-green-500 hover:bg-green-400 border-b-4 border-green-700 text-white text-xl rounded-xl" href="index.html">
+        Next Ride
+        <i class="ml-2 fas fa-forward"></i>
+      </a>
+    </p>
+  </div>
+
+  <script src="https://kit.fontawesome.com/d0bf6bf32c.js" crossorigin="anonymous"></script>
+  <script>let passengerName3</script>
+  <script src="ride-data.js"></script>
+  <script src="randomize.js"></script>
+  <script src="noober.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', pageLoad)
+    window.addEventListener('DOMContentLoaded', manipulateDOM)
+  </script>
+</body>
+
+</html>
